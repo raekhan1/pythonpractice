@@ -1,0 +1,22 @@
+For x in initial list of moles:
+	mole = initial moles
+
+	start tree starting from x 
+
+	changed moles = x-1, x+1 , x+4, x-4 
+	if any moles in changed moles < 0 delete from changed moles 
+	
+	for y in changed moles:
+		if y is in initial moles :
+			delete mole from mole
+		else: 
+			add mole to mole 
+
+	create second layer of the tree using mole list 
+	repeat  line 6-13 for  each node until there are no moles in mole list 
+	find shortests route possible using the tree 
+
+Next x 
+
+Compare shortest routes found using different starting points 
+Find shortest route 
